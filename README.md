@@ -5,3 +5,5 @@
 [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=405juug_frontend-project-44)
 - [Even game asciinema](https://asciinema.org/a/1ZTkoyhT2qz2m1IwK6xBVsSBz)
 - [Calculator game asciinema](https://asciinema.org/a/QhDqHbKPUf2kHRwVmlDa5hIJj)
+- [GCD game asciinema](https://asciinema.org/a/63KSm3bAXViGYoKw75XBHv9hH)
+- [Progression game asciinema](https://asciinema.org/a/VpzwfSa0SXqeVhS9b0Os6wjjF)

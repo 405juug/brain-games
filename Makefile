@@ -19,3 +19,8 @@ brain-even:
 brain-calc:
 	chmod +x ./bin/brain-calc.js
 
+brain-gcd:
+	chmod +x ./bin/brain-gcd.js
+	
+brain-progression:
+	chmod +x ./bin/brain-progression.js
