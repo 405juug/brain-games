@@ -34,7 +34,7 @@ export default function brainProgress(name){
             console.log("Correct!");
             count += 1;
         } else{
-            console.log(`${answer} is wrong answer ;(. Correct answer was ${correct}`);
+            console.log(`${answer} is wrong answer ;( Correct answer was ${correct}`);
             console.log(`Let's try again, ${name}!`);
             return;
         }
@@ -43,4 +43,5 @@ export default function brainProgress(name){
 }
 
 const name = brainGames();
+
 brainProgress(name);

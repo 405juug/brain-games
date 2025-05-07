@@ -24,3 +24,6 @@ brain-gcd:
 	
 brain-progression:
 	chmod +x ./bin/brain-progression.js
+
+brain-prime:
+	chmod +x ./bin/brain-prime.js

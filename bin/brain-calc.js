@@ -27,7 +27,7 @@ export default function brainCalc(name){
             console.log("Correct!");
             count += 1;
         } else{
-            console.log(`${answerPlus} is wrong answer ;(. Correct answer was ${correctPlus}`);
+            console.log(`${answerPlus} is wrong answer ;( Correct answer was ${correctPlus}`);
             console.log(`Let's try again, ${name}!`);
             return;
         }
@@ -48,7 +48,7 @@ export default function brainCalc(name){
             console.log("Correct!");
             count += 1;
         } else{
-            console.log(`${answerSub} is wrong answer ;(. Correct answer was ${correctSub}`);
+            console.log(`${answerSub} is wrong answer ;( Correct answer was ${correctSub}`);
             console.log(`Let's try again, ${name}!`);
             return;
         }
@@ -64,7 +64,7 @@ export default function brainCalc(name){
             console.log("Correct!");
             count += 1;
         } else{
-            console.log(`${answerMul} is wrong answer ;(. Correct answer was ${correctMul}`);
+            console.log(`${answerMul} is wrong answer ;( Correct answer was ${correctMul}`);
             console.log(`Let's try again, ${name}!`);
             return;
         }

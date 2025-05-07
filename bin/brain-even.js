@@ -24,7 +24,7 @@ export function evenGame(name){
             console.log("Correct!")
             count += 1;
         } else{
-            console.log(`${answer} is wrong answer ;(. Correct answer was ${correct}`);
+            console.log(`${answer} is wrong answer ;( Correct answer was ${correct}`);
             console.log(`Let's try again, ${name}!`);
             return;
         }

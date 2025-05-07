@@ -7,3 +7,4 @@
 - [Calculator game asciinema](https://asciinema.org/a/QhDqHbKPUf2kHRwVmlDa5hIJj)
 - [GCD game asciinema](https://asciinema.org/a/63KSm3bAXViGYoKw75XBHv9hH)
 - [Progression game asciinema](https://asciinema.org/a/VpzwfSa0SXqeVhS9b0Os6wjjF)
+- [Prime game asciinema](https://asciinema.org/a/Ra3UzVBVKGYj64yoaeOs3bB57)
