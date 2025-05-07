@@ -3,4 +3,5 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=405juug_frontend-project-44&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=405juug_frontend-project-44)
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=405juug_frontend-project-44)](https://sonarcloud.io/summary/new_code?id=405juug_frontend-project-44)
 [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=405juug_frontend-project-44)
-- [brain-even asciinema](https://asciinema.org/a/1ZTkoyhT2qz2m1IwK6xBVsSBz)
+- [Even game asciinema](https://asciinema.org/a/1ZTkoyhT2qz2m1IwK6xBVsSBz)
+- [Calculator game asciinema](https://asciinema.org/a/QhDqHbKPUf2kHRwVmlDa5hIJj)

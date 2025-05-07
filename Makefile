@@ -16,3 +16,6 @@ link:
 brain-even:
 	chmod +x ./bin/brain-even.js
 
+brain-calc:
+	chmod +x ./bin/brain-calc.js
+

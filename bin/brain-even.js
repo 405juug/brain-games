@@ -21,7 +21,7 @@ export function evenGame(name){
         const correct = isEven(randomNumber) ? "yes" : "no"
         
         if(answer === correct){
-            console.log("Correct")
+            console.log("Correct!")
             count += 1;
         } else{
             console.log(`${answer} is wrong answer ;(. Correct answer was ${correct}`);
@@ -30,7 +30,7 @@ export function evenGame(name){
         }
     }
 
-    console.log(`Congratulations, ${name}`)
+    console.log(`Congratulations, ${name}!`)
 }
 
 const name = brainGames()
