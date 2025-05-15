@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "@stylistic/eslint-plugin": "^4.2.0",
-    "eslint-config-js": "^5.0.0"
+    "eslint-config-js": "^5.0.0",
+    "readline-sync": "^1.4.10"
   }
 }
