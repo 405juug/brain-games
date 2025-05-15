@@ -1,18 +1,19 @@
 #!/usr/bin/env node
 
-import readlineSync from 'readline-sync';
-import brainGames from '../src/cli.js';
+import readlineSync from "readline-sync";
+import brainGames from "../src/cli.js";
 
-export default function brainCalc(name){
-    console.log('What is the result of the expression?');
+export default function brainCalc (name) {
+
+    console.log("What is the result of the expression?");
 
     let count = 0;
 
-    while(count < 3){
+    while (count < 3) {
 
         const num1 = Math.floor(Math.random() * 101);
         const num2 = Math.floor(Math.random() * 101);
-        
+
         const num1Mul = Math.floor(Math.random() * 11);
         const num2Mul = Math.floor(Math.random() * 11);
 
@@ -21,19 +22,29 @@ export default function brainCalc(name){
         console.log(`Question: ${randomAddition}`);
         const answerPlus = readlineSync.question("Your answer: ");
 
-        const correctPlus = num1 + num2
+        const correctPlus = num1 + num2;
 
-        if(Number(answerPlus) === correctPlus){
+        if (Number(answerPlus) === correctPlus) {
+
             console.log("Correct!");
             count += 1;
-        } else{
+
+        } else {
+
             console.log(`${answerPlus} is wrong answer ;( Correct answer was ${correctPlus}`);
             console.log(`Let's try again, ${name}!`);
             return;
+
         }
 
-        const a = Math.max(num1, num2);
-        const b = Math.min(num1, num2);
+        const a = Math.max(
+            num1,
+            num2
+        );
+        const b = Math.min(
+            num1,
+            num2
+        );
 
         const substraction = `${a} - ${b}`;
 
@@ -44,13 +55,17 @@ export default function brainCalc(name){
 
         const correctSub = a - b;
 
-        if(Number(answerSub) === correctSub){
+        if (Number(answerSub) === correctSub) {
+
             console.log("Correct!");
             count += 1;
-        } else{
+
+        } else {
+
             console.log(`${answerSub} is wrong answer ;( Correct answer was ${correctSub}`);
             console.log(`Let's try again, ${name}!`);
             return;
+
         }
 
         const randomMultiply = `${num1Mul} * ${num2Mul}`;
@@ -60,19 +75,25 @@ export default function brainCalc(name){
 
         const correctMul = num1Mul * num2Mul;
 
-        if(Number(answerMul) === correctMul){
+        if (Number(answerMul) === correctMul) {
+
             console.log("Correct!");
             count += 1;
-        } else{
+
+        } else {
+
             console.log(`${answerMul} is wrong answer ;( Correct answer was ${correctMul}`);
             console.log(`Let's try again, ${name}!`);
             return;
+
         }
+
     }
 
-    console.log(`Congratulations, ${name}!`)
+    console.log(`Congratulations, ${name}!`);
+
 }
 
-const name = brainGames()
+const name = brainGames();
 
 brainCalc(name);
