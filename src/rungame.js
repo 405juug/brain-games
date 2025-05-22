@@ -2,7 +2,7 @@ import readlinesync from 'readline-sync'
 
 const runGame = (description, generateQuestion) => {
     console.log("Welcome to the Brain Games!");
-    const name = readlinesync.question("May I have your name?");
+    const name = readlinesync.question("May I have your name? ");
     console.log(`Hello, ${name}!`);
     console.log(description);
 
@@ -20,7 +20,7 @@ const runGame = (description, generateQuestion) => {
         }
         console.log('Correct!')
     }
-    console.log(`Congratulation, ${name}!`);
+    console.log(`Congratulations, ${name}!`);
 }
 
 export default runGame

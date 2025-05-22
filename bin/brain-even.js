@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { generateNumbers, isEven } from "../src/helpers/helpers";
-import runGame from "../src/rungame";
+import { generateNumbers, isEven } from "../src/helpers/helpers.js";
+import runGame from "../src/rungame.js";
 
 const brainEven = () => {
   const a = generateNumbers()
