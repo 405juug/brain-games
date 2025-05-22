@@ -4,8 +4,8 @@ import { genProgression, hiddenNum } from "../src/helpers/helpers.js";
 import runGame from "../src/rungame.js";
 
 const brainProgress = () => {
-  const arr = genProgression();
-  const [newArr, correctAnswer] = hiddenNum();
+  const arr = genProgression(10);
+  const [newArr, correctAnswer] = hiddenNum(arr);
 
   const question = newArr.join(' ');
 
