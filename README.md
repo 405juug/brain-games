@@ -57,7 +57,7 @@ brain-progression
 
 ### Демонстрация игры "Калькулятор"
 
-[![Even game asciinema](https://asciinema.org/a/QhDqHbKPUf2kHRwVmlDa5hIJj.svg)](https://asciinema.org/a/1ZTkoyhT2qz2m1IwK6xBVsSBz)
+[![Calculator game asciinema](https://asciinema.org/a/QhDqHbKPUf2kHRwVmlDa5hIJj.svg)](https://asciinema.org/a/QhDqHbKPUf2kHRwVmlDa5hIJj)
 
 ### Демонстрация игры "Определение четного числа"
 
@@ -65,15 +65,15 @@ brain-progression
 
 ### Демонстрация игры "Определение наибольшего общего делителя"
 
-[![Even game asciinema](https://asciinema.org/a/63KSm3bAXViGYoKw75XBHv9hH.svg)](https://asciinema.org/a/1ZTkoyhT2qz2m1IwK6xBVsSBz)
+[![gcd game asciinema](https://asciinema.org/a/63KSm3bAXViGYoKw75XBHv9hH.svg)](https://asciinema.org/a/63KSm3bAXViGYoKw75XBHv9hH)
 
 ### Демонстрация игры "Определение простого числа"
 
-[![Even game asciinema](https://asciinema.org/a/Ra3UzVBVKGYj64yoaeOs3bB57.svg)](https://asciinema.org/a/1ZTkoyhT2qz2m1IwK6xBVsSBz)
+[![prime game asciinema](https://asciinema.org/a/Ra3UzVBVKGYj64yoaeOs3bB57.svg)](https://asciinema.org/a/Ra3UzVBVKGYj64yoaeOs3bB57)
 
 ### Демонстрация игры "Прогрессия"
 
-[![Even game asciinema](https://asciinema.org/a/VpzwfSa0SXqeVhS9b0Os6wjjF.svg)](https://asciinema.org/a/1ZTkoyhT2qz2m1IwK6xBVsSBz)
+[![progression game asciinema](https://asciinema.org/a/VpzwfSa0SXqeVhS9b0Os6wjjF.svg)](https://asciinema.org/a/VpzwfSa0SXqeVhS9b0Os6wjjF)
 
 
 
