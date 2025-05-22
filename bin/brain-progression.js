@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { genProgression, hiddenNum } from "../src/helpers/helpers";
-import runGame from "../src/rungame";
+import { genProgression, hiddenNum } from "../src/helpers/helpers.js";
+import runGame from "../src/rungame.js";
 
 const brainProgress = () => {
   const arr = genProgression();
