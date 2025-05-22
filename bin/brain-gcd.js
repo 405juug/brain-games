@@ -5,8 +5,6 @@ import runGame from '../src/rungame.js'
 
 
 const brainGCD = () => {
-  gcd()
-
   const a = generateNumbers();
   const b = generateNumbers();
 
