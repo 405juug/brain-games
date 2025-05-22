@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import runGame from '../src/rungame.js'
-import { calcNums, generateMathOperator, generateNumbers } from '../src/helpers/helpers';
+import { calcNums, generateMathOperator, generateNumbers } from '../src/helpers/helpers.js';
 
 
 const brainCalc = () => {
